@@ -5,8 +5,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- иконки unicons -->
+        
+        <!-- icons -->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
         <!-- main css -->
@@ -16,40 +16,56 @@
     </head>
 
     <body>
-        <div class="wrapper">
-            <header>
-                <div class="navbar">
-                    <h1 class="navbar-logo">
-                        <a class="navbar-logo-a" href="#">
-                            <img class="img-logo" src="image/aefimenko-logo.png" alt="Андрей Ефименко">
-                        </a>
-                    </h1>
-                    <div class="navbar-menu">
-                        <div class="navbar-menu-item"><a class="navbar-a" href="pages/main.php">Главная</a></div>
-                        <div class="navbar-menu-item"><a class="navbar-a" href="pages/about.php">Подробнее</a></div>
-                        <div class="navbar-menu-item"><a class="navbar-a" href="pages/main.php">Технологии</a></div>
-                        <div class="navbar-menu-item"><a class="navbar-a" href="pages/main.php">Портфолио</a></div>
+        <!-- header -->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav-logo">Andrey Efimenko</a>
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list grid">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">
+                                <i class="uil uil-estate"></i> Главная
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">
+                                <i class="uil uil-user"></i> Обо мне
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">
+                                <i class="uil uil-file-alt"></i> Скиллы
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">
+                                <i class="uil uil-briefcase"></i> Услуги
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">
+                                <i class="uil uil-scenery"></i> Портфолио
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contactme" class="nav-link">
+                                <i class="uil uil-message"></i> Связь со мной
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav-close" id="nav-close"></i>
+                </div>
+
+                <div class="nav-btns">
+                    <div class="nav-toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
                     </div>
                 </div>
-            </header>
-
-            <div class="content"></div>
+            </nav>
+        </header>
 
         <!-- footer -->
-            <div class="footer">
-                <div class="footer-contacts">
-                    <ul class="footer-contacts-top">
-                        <li class="footer-contacts-top-title">Свяжись cо мной:</li>
-                        <li class="footer-contacts-top-li"><a class="footer-a" href="#"><i class="bi bi-telephone-fill"></i>  +7 965 139 88 58</a></li>
-                        <li class="footer-contacts-top-li"><a class="footer-a" href="#"><i class="bi bi-envelope-fill"></i>  aa.efimenko@yandex.ru</a></li>
-                    </ul>
-                    <ul class="footer-contacts-bottom">
-                        <li class="footer-contacts-bottom-li"><a class="footer-a" href="https://www.linkedin.com/in/aaefimenko/"><i class="bi bi-linkedin"></i></a></li>
-                        <li class="footer-contacts-bottom-li"><a class="footer-a" href="https://t.me/aaefimen"><i class="bi bi-telegram"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </wrapper>
+            
 
         <!-- main JS script -->
         <script src="js/main.js"></script>
