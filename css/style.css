@@ -132,6 +132,8 @@ img {
     gap: 1.5rem;
 }
 
+/* header */
+
 .header {
     width: 100%;
     position: fixed;
@@ -173,7 +175,7 @@ img {
 @media screen and (max-width: 767px) {
     .nav-menu {
         position: fixed;
-        bottom: 0;
+        bottom: -100%;
         left: 0;
         width: 100%;
         background-color: var(--body-color);
@@ -204,4 +206,23 @@ img {
 
 .nav-icon {
     font-size: 1.2rem;
+}
+
+.nav-close {
+    position: absolute;
+    right: 1.3rem;
+    bottom: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--first-color);
+}
+
+.nav-close:hover {
+    color: var(--first-color-alt);
+}
+
+/* show menu */
+
+.show-menu {
+    bottom: 0;
 }
