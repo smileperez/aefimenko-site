@@ -226,3 +226,36 @@ img {
 .show-menu {
     bottom: 0;
 }
+
+
+/* home */
+.home-container {
+    gap: 1rem;
+}
+
+.home-content {
+    grid-template-columns: .5fr 3fr;
+    padding-top: 3.5rem;
+    align-items:  center;
+}
+
+.home-social {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.home-social-icon {
+    font-size: 1.25rem;
+    color: var(--first-color);
+}
+
+.home-social-icon:hover {
+    font-size: 1.25rem;
+    color: var(--first-color-alt);
+}
+
+.home-blob {
+    width: 200px;
+    fill: var(--first-color)
+}

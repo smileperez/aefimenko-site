@@ -18,3 +18,10 @@ if(navClose){
 }
 
 // Закрыть меню на мобильном
+const navLink = document.querySelectorAll('.nav-link')
+
+function linkAction() {
+    const navMenu = document.getElementById('nav-menu');
+    navMenu.classList.remove('show-menu')
+}
+navLink.forEach(n => n.addEventListener('click', linkAction));
